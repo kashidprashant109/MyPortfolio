@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #0c0c0c;
 }
 
 /* TRANSITION */
@@ -374,7 +374,7 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin-top: 1rem;
   color: black;
 }
 
@@ -436,3 +436,25 @@ footer p {
 img {
   border-radius: 40%;
 }
+.project-img {
+  height: 200px; /* Set the desired height for the project images */
+  width: auto; /* Maintain the aspect ratio */
+}
+body {
+  background: linear-gradient(45deg, #e74c3c, #3498db);
+}
+
+/* .section__pic-container {
+  overflow: hidden;
+  position: relative;
+}
+
+#zoomImage {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.zoomed {
+  transform: scale(1.2); /* You can adjust the scale factor for the zoom level */
+} */
